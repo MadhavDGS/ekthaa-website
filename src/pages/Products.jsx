@@ -6,27 +6,27 @@ function Products() {
   const products = [
     {
       name: 'KathaPe Customer',
-      description: 'Digital ledger and transaction tracking app for customers. Manage your personal finances, track expenses, and maintain digital records with ease.',
+      description: 'Seamlessly manage credit, discover local shops, and earn rewards. Scan QR codes to take credit or pay back instantly, with full transaction transparency and digital receipts.',
       url: 'https://khatape.tech',
       icon: Users,
       features: [
-        'Personal expense tracking',
-        'Digital transaction records',
-        'Easy-to-use interface',
-        'Secure data storage'
+        'Take credit & pay back via QR scan',
+        'Complete credit history tracking',
+        'Discover nearby shops & products',
+        'Exclusive discounts & cashback offers'
       ],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       name: 'KathaPe Business',
-      description: 'Comprehensive business management solution for merchants and retailers. Track inventory, manage customer ledgers, and grow your business.',
+      description: 'Complete business management platform for local shops. Digital credit ledger, inventory control, product catalogue, and customer analytics — all in one place with cloud sync.',
       url: 'https://business.khatape.tech',
       icon: Store,
       features: [
-        'Customer ledger management',
-        'Inventory tracking',
-        'Transaction history',
-        'Business analytics'
+        'Digital credit ledger with QR transactions',
+        'Real-time inventory & stock alerts',
+        'Product catalogue for customer discovery',
+        'Receivables tracking & business insights'
       ],
       color: 'from-purple-500 to-pink-500'
     }
@@ -41,9 +41,9 @@ function Products() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="page-title">Our Products</h1>
+            <h1 className="page-title">KathaPe Platform</h1>
             <p className="page-subtitle">
-              Innovative solutions designed to simplify your digital experience
+              Powerful tools for local businesses and customers to transact, discover, and grow together
             </p>
           </motion.div>
         </div>

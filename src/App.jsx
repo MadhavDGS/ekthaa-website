@@ -5,6 +5,7 @@ import GridScan from './components/GridScan';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import Careers from './pages/Careers';
+import About from './pages/About';
 import './App.css';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
+          <Route path="/about" element={<About />} />
           <Route path="/careers" element={<Careers />} />
         </Routes>
         <Footer />

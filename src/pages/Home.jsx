@@ -7,18 +7,18 @@ function Home() {
   const features = [
     {
       icon: Zap,
-      title: 'Fast & Reliable',
-      description: 'Lightning-fast performance with 99.9% uptime guarantee'
+      title: 'Digital Credit & Payments',
+      description: 'Replace paper notebooks with cloud-synced digital ledgers. Track credit, payments, and receivables in real-time with zero errors.'
     },
     {
       icon: Shield,
-      title: 'Secure',
-      description: 'Enterprise-grade security to protect your data'
+      title: 'Business Discovery',
+      description: 'Help customers discover local shops through digital catalogues, product listings, and location-based search.'
     },
     {
       icon: Users,
-      title: 'User-Friendly',
-      description: 'Intuitive interface designed for everyone'
+      title: 'Smart Discounts & Loyalty',
+      description: 'Boost customer retention with targeted offers, cashback rewards, and AI-powered promotional campaigns.'
     }
   ];
 
@@ -32,10 +32,10 @@ function Home() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="hero-title">
-            Welcome to <span className="gradient-text">Ekthaa</span>
+            Empowering Local Businesses with <span className="gradient-text">Ekthaa</span>
           </h1>
           <p className="hero-subtitle">
-            Building innovative digital solutions that empower businesses and individuals
+            Complete digital platform for credit management, inventory control, and customer discovery. Connecting neighborhood shops with their customers through smart technology.
           </p>
           <div className="hero-buttons">
             <Link to="/products" className="btn btn-primary">
@@ -80,6 +80,118 @@ function Home() {
         </div>
       </section>
 
+      <section className="stats">
+        <div className="container">
+          <div className="stats-grid">
+            <motion.div
+              className="stat-card"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+            >
+              <h3 className="stat-number">100%</h3>
+              <p className="stat-label">Digital Accuracy</p>
+            </motion.div>
+            <motion.div
+              className="stat-card"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+            >
+              <h3 className="stat-number">Real-time</h3>
+              <p className="stat-label">Cloud Sync</p>
+            </motion.div>
+            <motion.div
+              className="stat-card"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+            >
+              <h3 className="stat-number">Zero</h3>
+              <p className="stat-label">Paper Waste</p>
+            </motion.div>
+            <motion.div
+              className="stat-card"
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
+              <h3 className="stat-number">24/7</h3>
+              <p className="stat-label">Access Anywhere</p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      <section className="how-it-works">
+        <div className="container">
+          <motion.h2
+            className="section-title"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+          >
+            How It Works
+          </motion.h2>
+          <div className="steps-grid">
+            <motion.div
+              className="step-card"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="step-number">01</div>
+              <h3 className="step-title">Shop Owner Creates Account</h3>
+              <p className="step-description">
+                Business owners sign up for KathaPe Business and set up their digital ledger, inventory, and product catalogue.
+              </p>
+            </motion.div>
+            <motion.div
+              className="step-card"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+            >
+              <div className="step-number">02</div>
+              <h3 className="step-title">Customer Discovers & Connects</h3>
+              <p className="step-description">
+                Customers find local shops through KathaPe Customer app, browse products, and scan QR codes to connect.
+              </p>
+            </motion.div>
+            <motion.div
+              className="step-card"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+            >
+              <div className="step-number">03</div>
+              <h3 className="step-title">Seamless Transactions</h3>
+              <p className="step-description">
+                Take credit or pay back instantly via QR codes. All transactions sync in real-time with complete transparency.
+              </p>
+            </motion.div>
+            <motion.div
+              className="step-card"
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+            >
+              <div className="step-number">04</div>
+              <h3 className="step-title">Build Trust & Grow</h3>
+              <p className="step-description">
+                Track credit history, earn rewards, get insights, and build lasting relationships through digital transparency.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       <section className="cta">
         <div className="container">
           <motion.div
@@ -88,9 +200,9 @@ function Home() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
           >
-            <h2 className="cta-title">Ready to get started?</h2>
+            <h2 className="cta-title">Transform Your Local Business</h2>
             <p className="cta-description">
-              Join thousands of users who trust our platform
+              Join neighborhood shops and customers building trust through digital transparency
             </p>
             <Link to="/products" className="btn btn-primary btn-large">
               View Our Products

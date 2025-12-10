@@ -11,7 +11,7 @@ function Footer() {
           <div className="footer-section">
             <h3 className="footer-title">Ekthaa</h3>
             <p className="footer-description">
-              Building innovative solutions for modern businesses
+              Empowering neighborhood businesses with digital credit, inventory management, and customer discovery.
             </p>
           </div>
 
@@ -20,6 +20,7 @@ function Footer() {
             <ul className="footer-links">
               <li><a href="/">Home</a></li>
               <li><a href="/products">Products</a></li>
+              <li><a href="/about">About</a></li>
               <li><a href="/careers">Careers</a></li>
             </ul>
           </div>
@@ -33,16 +34,18 @@ function Footer() {
           </div>
 
           <div className="footer-section">
-            <h4 className="footer-heading">Connect</h4>
+            <h4 className="footer-heading">Contact</h4>
+            <ul className="footer-links">
+              <li><a href="mailto:founder@ekthaa.app">founder@ekthaa.app</a></li>
+              <li><a href="mailto:support@ekthaa.app">support@ekthaa.app</a></li>
+              <li><a href="mailto:hr@ekthaa.app">hr@ekthaa.app</a></li>
+            </ul>
             <div className="footer-social">
               <a href="https://github.com/MadhavDGS" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Github size={20} />
               </a>
               <a href="https://www.linkedin.com/company/ekthaa/" target="_blank" rel="noopener noreferrer" className="social-link">
                 <Linkedin size={20} />
-              </a>
-              <a href="mailto:contact@ekthaa.app" className="social-link">
-                <Mail size={20} />
               </a>
             </div>
           </div>
