@@ -32,7 +32,7 @@ function Home() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="hero-title">
-            <span className="gradient-text">Ekthaa</span> — Empowering Local Businesses
+            <span className="gradient-text">Ekthaa</span> for Local Businesses
           </h1>
           <p className="hero-subtitle">
             Complete digital platform for credit management, inventory control, and customer discovery. Connecting neighborhood shops with their customers through smart technology.
