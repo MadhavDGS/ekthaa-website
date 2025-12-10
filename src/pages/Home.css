@@ -112,7 +112,7 @@
 
 .feature-card {
   padding: 2.5rem;
-  background: var(--dark-card);
+  background: rgba(37, 37, 37, 0.4);
   border: 1px solid var(--dark-border);
   border-radius: 0.5rem;
   transition: all 0.2s ease;
@@ -151,7 +151,7 @@
 }
 
 .stats {
-  background: var(--dark-card);
+  background: rgba(37, 37, 37, 0.5);
   border-top: 1px solid var(--dark-border);
   border-bottom: 1px solid var(--dark-border);
   padding: 3rem 2rem;
@@ -230,7 +230,7 @@
 }
 
 .cta {
-  background: var(--dark-card);
+  background: rgba(37, 37, 37, 0.5);
   border-top: 1px solid var(--dark-border);
   border-bottom: 1px solid var(--dark-border);
 }

@@ -36,7 +36,7 @@
 }
 
 .product-card {
-  background: var(--dark-card);
+  background: rgba(37, 37, 37, 0.4);
   border: 1px solid var(--dark-border);
   border-radius: 0.5rem;
   overflow: hidden;

@@ -28,7 +28,7 @@
 
 .benefit-card {
   padding: 2.5rem;
-  background: var(--dark-card);
+  background: rgba(37, 37, 37, 0.4);
   border: 1px solid var(--dark-border);
   border-radius: 0.5rem;
   text-align: center;
@@ -76,7 +76,7 @@
 
 .position-card {
   padding: 2rem;
-  background: var(--dark-card);
+  background: rgba(37, 37, 37, 0.4);
   border: 1px solid var(--dark-border);
   border-radius: 0.5rem;
   transition: all 0.2s ease;
