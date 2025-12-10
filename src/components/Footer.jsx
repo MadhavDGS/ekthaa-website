@@ -27,8 +27,8 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-heading">Our Products</h4>
             <ul className="footer-links">
-              <li><a href="https://kathape.tech" target="_blank" rel="noopener noreferrer">KathaPe Customer</a></li>
-              <li><a href="https://business.kathape.tech" target="_blank" rel="noopener noreferrer">KathaPe Business</a></li>
+              <li><a href="https://khatape.tech" target="_blank" rel="noopener noreferrer">KathaPe Customer</a></li>
+              <li><a href="https://business.khatape.tech" target="_blank" rel="noopener noreferrer">KathaPe Business</a></li>
             </ul>
           </div>
 

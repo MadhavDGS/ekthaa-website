@@ -7,7 +7,7 @@ function Products() {
     {
       name: 'KathaPe Customer',
       description: 'Digital ledger and transaction tracking app for customers. Manage your personal finances, track expenses, and maintain digital records with ease.',
-      url: 'https://kathape.tech',
+      url: 'https://khatape.tech',
       icon: Users,
       features: [
         'Personal expense tracking',
@@ -20,7 +20,7 @@ function Products() {
     {
       name: 'KathaPe Business',
       description: 'Comprehensive business management solution for merchants and retailers. Track inventory, manage customer ledgers, and grow your business.',
-      url: 'https://business.kathape.tech',
+      url: 'https://business.khatape.tech',
       icon: Store,
       features: [
         'Customer ledger management',
