@@ -100,7 +100,32 @@
 }
 
 @media (max-width: 768px) {
+  .footer-container {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+
   .footer-content {
     grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-links {
+    align-items: center;
+  }
+
+  .footer-social {
+    justify-content: center;
+  }
+
+  .footer-title {
+    font-size: 1.35rem;
+  }
+
+  .footer-description {
+    font-size: 0.9rem;
   }
 }

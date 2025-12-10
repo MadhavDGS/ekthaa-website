@@ -127,17 +127,47 @@
 
 @media (max-width: 768px) {
   .about-hero {
-    padding: 4rem 2rem 2rem;
+    padding: 3rem 1.5rem 2rem;
+  }
+
+  .page-title {
+    font-size: clamp(2rem, 8vw, 2.5rem);
+    margin-bottom: 1rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
   }
 
   .about-story,
   .about-values,
   .about-platform,
   .about-future {
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: clamp(1.75rem, 6vw, 2rem);
+    margin-bottom: 2rem;
+  }
+
+  .story-content,
+  .platform-content,
+  .future-content {
+    padding: 0 1rem;
   }
 
   .values-grid {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .value-card {
+    padding: 2rem;
+  }
+
+  .value-icon {
+    width: 48px;
+    height: 48px;
   }
 }
