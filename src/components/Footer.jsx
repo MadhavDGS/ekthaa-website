@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function Footer() {
@@ -18,10 +19,10 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-heading">Quick Links</h4>
             <ul className="footer-links">
-              <li><a href="/">Home</a></li>
-              <li><a href="/products">Products</a></li>
-              <li><a href="/about">About</a></li>
-              <li><a href="/careers">Careers</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/products">Products</Link></li>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/careers">Careers</Link></li>
             </ul>
           </div>
 
@@ -36,8 +37,8 @@ function Footer() {
           <div className="footer-section">
             <h4 className="footer-heading">Legal</h4>
             <ul className="footer-links">
-              <li><a href="/terms">Terms & Conditions</a></li>
-              <li><a href="/privacy">Privacy Policy</a></li>
+              <li><Link to="/terms">Terms & Conditions</Link></li>
+              <li><Link to="/privacy">Privacy Policy</Link></li>
             </ul>
           </div>
 
